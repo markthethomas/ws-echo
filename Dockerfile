@@ -1,0 +1,5 @@
+FROM jmalloc/echo-server
+ENV PORT=8000
+ENV LOG_HTTP_BODY=true
+ENV LOG_HTTP_HEADERS=true
+CMD []
